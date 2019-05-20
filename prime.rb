@@ -10,8 +10,8 @@ def prime?(num)
       while counter < num
         if num % counter == 0
           return false 
-          counter = counter + 1
         end
+        counter = counter + 1
       end
   end
   return true
